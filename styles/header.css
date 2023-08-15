@@ -21,6 +21,7 @@
 }
 
 .container__imagem{
+    width: 10%;
  padding: 1em;
 }
 
@@ -38,4 +39,8 @@
 
 .container__menu{
     display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container-titulo
 }
