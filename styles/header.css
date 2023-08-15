@@ -3,6 +3,7 @@
     justify-content: space-between;
     background-color: var(--marrom);
     position: relative;
+    align-items: center;
 }
 
 .cabecalho__menu{
@@ -41,6 +42,40 @@
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1024px) {
-    .container-titulo
+    .container-titulo{
+    display: block;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 30px;
+    }
+
+    .container__menu{
+       display: none;
+
+    }
 }
