@@ -42,29 +42,18 @@
     display: none;
 }
 
+.cabecalho-lista-titulo{
+    color: brown;
+}
 
+.cabecalho-lista-item{
+    color: rgb(240, 151, 19);
+    pedding:1em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.menu__lista-item{
+    color:  rgb(240, 151, 19);
+}
 
 @media screen and (min-width: 1024px) {
     .container-titulo{
