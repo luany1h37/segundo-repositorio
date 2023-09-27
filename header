@@ -1,0 +1,82 @@
+.cabecalho{
+    backgroud-color: var(--cor-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho_menu{
+    width: 24px;
+    height: 24px;
+    background-image: url(img/cardapio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between
+    align-item:center;
+}
+
+.cabecalho-imagem{
+    padding: 1em;
+}
+
+.cabecalho-imagem{
+    padding: 1em;
+    width: 40px;
+}
+
+.cabecalho-lista{
+    display: none;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    width: 50vw;
+}
+
+.container__botao:checked~.cabecalho-lista{
+    display: block;
+}
+
+.container__botao{
+    display: none;
+}
+
+.cabecalho-lista-titulo{
+    padding: 1em;
+    color: brown;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cabecalho-lista-item{
+    padding: 1em;
+    color: red;
+}
+
+.container-titulo{
+    display: none;
+}
+
+.menu__lista-item{
+    background-color: rgb(110, 0, 0);
+    color: brown;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+
+.opcoes{
+    display: none;
+}
+
+.container__texto{
+    display: none;
+}
+ 
