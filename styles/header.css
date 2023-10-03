@@ -9,7 +9,7 @@ cabecalho{
 .cabecalho_menu{
     width: 24px;
     height: 24px;
-    background-image: url(img/cardapio.png);
+    background-image: url(../img/menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -18,7 +18,7 @@ cabecalho{
 .container{
     display: flex;
     justify-content: space-between
-    align-item:center;
+    align-item:center;''
 }
 
 .cabecalho-imagem{
