@@ -1,0 +1,15 @@
+.carrossel{
+    background-color:var (cor de fundo);
+}
+
+.carrossel__titulo{
+   color: bisque;
+    background-color: brown;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0,5cm 0;
+}
+
+.carrossel__container{}
